@@ -1,0 +1,160 @@
+/* --- Estil general --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f9fafb;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* --- Header --- */
+header {
+  background-color: #ffffff;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+}
+
+nav {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #005999;
+}
+
+/* --- Seccions --- */
+.section {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #0077cc;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+/* --- Habilitats --- */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.skill {
+  background-color: #e6f0fa;
+  color: #005999;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+/* --- Projectes --- */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+.project-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  flex: 1 1 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card h3 {
+  color: #0077cc;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  flex-grow: 1;
+}
+
+.project-card a {
+  margin-top: 1rem;
+  color: white;
+  background-color: #0077cc;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.project-card a:hover {
+  background-color: #005999;
+}
+
+/* --- Contacte --- */
+#contact a {
+  color: #0077cc;
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #f1f1f1;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  .section {
+    margin: 2rem auto;
+  }
+
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    gap: 1rem;
+  }
+}
