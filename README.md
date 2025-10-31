@@ -3,9 +3,9 @@ Curriculum Vitae
 
 # CV Website — Hypermedia Project (Part 1)
 
-## 🔍 Project Analysis
+## Project Analysis
 
-### 🧑‍💻 User Profile
+### User Profile
 The target audience of this website consists of **recruiters, professors, and potential collaborators** who want to get a quick and clear overview of my professional profile.  
 The user expects to find **essential information** about my education, experience, and technical skills, along with **practical projects** that demonstrate my abilities.  
 Since these users often have limited time, the website must be **simple, direct, and easy to navigate**, without unnecessary distractions.  
@@ -14,7 +14,7 @@ The website is also designed to be **responsive**, ensuring correct visualizatio
 
 ---
 
-### 🧭 Information Architecture
+### Information Architecture
 The website is a **single-page application**, divided into four main sections:
 1. **About Me:** short personal introduction and professional goals.  
 2. **Skills:** list of technical knowledge and tools mastered.  
@@ -27,7 +27,7 @@ Each section maintains a consistent typographic hierarchy and balanced spacing t
 
 ---
 
-### 🎨 Visual Design
+### Visual Design
 The design follows a **modern and minimalist style**, with a neutral color palette of light tones (white and soft gray) combined with a blue accent color to highlight interactive elements such as links and buttons.  
 The chosen typography is **“Inter”**, a clean and professional sans-serif font ideal for digital interfaces.  
 The use of white space is intentional to create a sense of order and calm, helping users focus on the content.  
@@ -37,7 +37,7 @@ Overall, the result is a digital CV that combines **simplicity and elegance**, e
 
 ---
 
-### 🖼️ Figma Project
+### Figma Project
 👉 [Link to the Figma project]()
 
 ---
