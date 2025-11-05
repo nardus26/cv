@@ -5,42 +5,35 @@ Curriculum Vitae
 
 ## Project Analysis
 
-### User Profile
-The target audience of this website consists of **recruiters, professors, and potential collaborators** who want to get a quick and clear overview of my professional profile.  
-The user expects to find **essential information** about my education, experience, and technical skills, along with **practical projects** that demonstrate my abilities.  
-Since these users often have limited time, the website must be **simple, direct, and easy to navigate**, without unnecessary distractions.  
-The ideal experience is that of a **single-page website**, where all information is well-structured and easily accessible through a clear and smooth navigation menu.  
-The website is also designed to be **responsive**, ensuring correct visualization on both desktop and mobile devices.
+User Profile
 
----
+The target audience of this website consists of recruiters, professors, and potential collaborators who want to get a quick and clear overview of my professional profile.
+These users expect to find essential information about my education, skills, and experience, along with a few selected projects that demonstrate my abilities. Because they usually have limited time, the website needs to be simple, fast, and intuitive, allowing them to understand who I am in just a few seconds.
+The site follows a one-page layout, where all content is clearly structured and accessible through a fixed navigation bar. The design is fully responsive, ensuring a smooth experience on both desktop and mobile devices.
+The tone and appearance aim to communicate professionalism, clarity, and personality, presenting me as a reliable and motivated developer. The main goal is that the visitor can quickly get an overall picture of my skills and easily contact me if interested in collaboration or recruitment.
 
-### Information Architecture
-The website is a **single-page application**, divided into four main sections:
-1. **About Me:** short personal introduction and professional goals.  
-2. **Skills:** list of technical knowledge and tools mastered.  
-3. **Projects:** portfolio with short descriptions and links to real examples.  
-4. **Contact:** section with ways to get in touch professionally.  
+Information Architecture
 
-Users can navigate between sections using a **fixed top navigation bar**, which improves usability and ensures smooth access to every section.  
-A **linear and clear structure** was chosen, without additional pages, focusing on **visual coherence and readability**.  
-Each section maintains a consistent typographic hierarchy and balanced spacing to guarantee **legibility and visual order**.
+The website is a single-page portfolio, organized into four main sections:
 
----
+About Me – A short personal introduction with background and career goals.
 
-### Visual Design
-The design follows a **modern and minimalist style**, with a neutral color palette of light tones (white and soft gray) combined with a blue accent color to highlight interactive elements such as links and buttons.  
-The chosen typography is **“Inter”**, a clean and professional sans-serif font ideal for digital interfaces.  
-The use of white space is intentional to create a sense of order and calm, helping users focus on the content.  
-The layout uses **Flexbox** to adapt fluidly to different screen sizes, ensuring that the site is fully **responsive** and accessible on all devices.  
-The visual design aims to convey **professionalism, clarity, and balance**, with smooth transitions and a clear visual hierarchy that naturally guides the user’s reading flow.  
-Overall, the result is a digital CV that combines **simplicity and elegance**, easily customizable and extendable with new projects or experiences in the future.
+Skills – A structured list of technical tools and competencies.
 
----
+Projects – A small portfolio with concise descriptions and external links.
 
-### Figma Project
-👉 [Link to the Figma project]()
+Contact – Professional contact options and social links.
+Navigation is provided by a fixed top menu that remains visible while scrolling, allowing users to jump smoothly between sections.
+The information flow follows a logical vertical structure, with balanced spacing and consistent typographic hierarchy to maintain readability.
+Each section is designed to stand out visually while maintaining unity across the page, creating a clear and engaging experience that helps users find what they need without distractions.
 
----
+Visual Design
 
-### 🌐 Public Link
-👉 [Link to the live website (GitHub Pages)]()
+The visual concept is based on a modern and minimalist style, emphasizing clarity and usability. The color palette combines light neutral tones (white and soft gray) with a blue accent (#0077cc) to highlight interactive elements such as links and buttons. This combination evokes professionalism and calmness.
+The typography used is Inter, a clean and readable sans-serif font optimized for digital interfaces. Generous white space is used to organize the layout and create a balanced rhythm that improves content focus.
+The layout is implemented using Flexbox, allowing the page to adapt dynamically to any screen size and remain fully responsive. Soft shadows and rounded corners add depth and a subtle visual identity without overcomplicating the interface.
+Animations and transitions are smooth and subtle, contributing to a professional look and pleasant navigation experience.
+Overall, the design aims to reflect professional balance, readability, and elegance, resulting in a clean personal portfolio that effectively communicates both competence and personality.
+
+Figma Project Link:
+Link to Figma design: https://www.figma.com/design/auw643XJOl4WggiSsSlotg/CV?node-id=0-1&p=f&t=rmbgTVqC4lat6PEr-0
