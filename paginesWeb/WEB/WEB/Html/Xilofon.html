@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Xilofon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+    <script src="../Javascript/Xilofon.js"></script>
+    <title>Xilofon</title>
+</head>
+<body>
+  <div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+
+
+    <ul class="menu__box">
+      <div class="imatgeCercle">
+        <img src="../../imatges/cr7.png">
+      </div>
+      <h6>CR7elBicho</h6>
+      <li ><a  id="clauSol" >🎼</a></li>
+      <li class="canco"><a class="menu__item" href="#">Sol Solet</a><audio src="../../audios/nZqo5canhis_48.mp3"></audio></li>
+      <li class="canco"><a class="menu__item"  href="#">KaKaorat</a><audio src="../../audios/nZqo5canhis_48.mp3"></audio></li>
+      <li class="canco"><a class="menu__item"  href="#">EL LLEÓ </a><audio src="../../audios/nZqo5canhis_48.mp3"></audio></li>
+      <li class="canco"><a class="menu__item" href="#">FUM FUM FUM</a><audio src="../../audios/nZqo5canhis_48.mp3"></audio></li>
+      <li><div class="menu__item" id="stop-btn">Parar la canço</div></li>
+      <li><div class="menu__item" id="stop-btn-papallona">Parar la papallona</div></li>
+    </ul>
+  </div>
+    <div class="xilofon">
+      <div class="tecla primeraTecla grow">
+        <p class="">DO</p>
+        <audio src="../../audios/do.wav"></audio>
+      </div>
+      <div class="tecla segonaTecla grow">
+        <p>RE</p>
+        <audio src="../../audios/re.wav"></audio>
+      </div>
+      <div class="tecla terceraTecla grow">
+        <p>MI</p>
+        <audio src="../../audios/mi.wav"></audio>
+      </div>
+      <div class="tecla quartaTecla grow">
+        <p>FA</p>
+        <audio src="../../audios/fa.wav"></audio>
+      </div>
+      <div class="tecla cinquenaTecla grow">
+        <p>SOL</p>
+        <audio src="../../audios/sol.wav"></audio>
+      </div>
+      <div class="tecla sisenaTecla grow">
+        <p>LA</p>
+        <audio src="../../audios/la.wav"></audio>
+      </div>
+      <div class="tecla setenaTecla grow">
+        <p>SI</p>
+        <audio src="../../audios/si.wav"></audio>
+      </div>
+      <div class="tecla vuitenaTecla grow">
+        <p>DO#</p>
+        <audio src="../../audios/do_agut.wav"></audio>
+      </div>
+    </div>
+    <div class="cerclePuntuacio cercle">
+      <p id="puntuacio"> 0 </p>
+      <img src="../../imatges/mariquita.png">
+    </div>
+    <div class="cercleNotaSecundaria cercle secundaria1">
+      <p class="animate__animated animate__bounceInLeft animate__delay-2s">DO</p>
+    </div>
+    <div class="cercleNotaPrincipal cercle">
+      <p class="animate__animated animate__pulse animate__repeat-2 animate__delay-2s">RE</p>
+    </div>
+    <div class="cercleNotaSecundaria  cercle secundaria2">
+      <p class="animate__animated animate__bounceInLeft animate__delay-2s">MI</p>
+    </div>
+    <div class="cerclePuntuacioRecord cercle">
+      <span>🏆</span>
+      <p>99990</p>
+    </div>
+    <div class="papallona"></div>
+</body>
+</html>
